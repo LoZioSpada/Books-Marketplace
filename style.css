@@ -1,0 +1,16 @@
+img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: fill;
+}
+
+.card-body h5 {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+svg {
+    cursor: pointer;
+}

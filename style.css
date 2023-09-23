@@ -14,3 +14,12 @@ img {
 svg {
     cursor: pointer;
 }
+
+li {
+    list-style: none;
+}
+
+.dropdown-toggle::after {
+    visibility: hidden;
+}
+

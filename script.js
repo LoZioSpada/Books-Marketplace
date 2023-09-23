@@ -11,7 +11,7 @@ const getBooks = () => {
             contenuto.innerHTML = result.map((book) => {
                 // CREAZIONE CARD
                 return `
-                <div class="col-6 col-md-4 col-lg-3">
+                <div class="col-6 col-md-3">
                     <div class="card mb-5">
                         <img src='${book.img}' class="card-img-top">
                         <div class="card-body p-1">
